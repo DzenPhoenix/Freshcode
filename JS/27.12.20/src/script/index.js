@@ -160,7 +160,10 @@ console.log(`firstNegativeElem=${firstNegativeElem(arr)}`);
 
 function multiplyBy2(arr){
     
-    arr.forEach(element => console.log(element));
+    arr.forEach( function(elem,index,array){
+        array[index]=elem*2;
+    });
+    return arr;
 }
 
 console.log(`multiplyBy2=${multiplyBy2(arr)}`);
