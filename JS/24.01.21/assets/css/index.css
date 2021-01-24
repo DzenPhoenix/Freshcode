@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 100vh;
+  background: lightgray;
+}
+
+input[name='task'] {
+  border: 4px solid black;
+}
+
+#createTask {
+  display: inline-block;
+  background-color: darkolivegreen;
+  color: white;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.validStyle {
+  border-color: GREEN;
+}
+
+.inValidStyle {
+  border-color: red;
+}
