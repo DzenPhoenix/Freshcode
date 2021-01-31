@@ -1,0 +1,25 @@
+#rect {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.changeColor {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+.remove_elem {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: blue;
+}

@@ -1,0 +1,118 @@
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.userCard {
+  width: 100%;
+  height: 100vh;
+  background: rgb (22, 22, 27);
+  background: linear-gradient(
+    180deg,
+    rgba(22, 22, 27, 1) 17%,
+    rgba(38, 38, 42, 1) 43%,
+    rgba(90, 90, 96, 1) 100%,
+    rgba(46, 46, 49, 1) 100%,
+    rgba(32, 32, 34, 1) 100%,
+    rgba(17, 17, 18, 0.9192051820728291) 100%,
+    rgba(56, 56, 60, 1) 100%,
+    rgba(55, 57, 57, 1) 100%,
+    rgba(58, 58, 65, 1) 100%,
+    rgba(11, 11, 15, 0.8127626050420168) 100%,
+    rgba(132, 136, 136, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -100px;
+}
+
+.userPhoto {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.userPhoto > img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+.userStat {
+  background-color: aliceblue;
+  width: 230px;
+  height: 70px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userStatValue {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px 0 10px;
+}
+
+.userStatName {
+  display: flex;
+  justify-content: space-around;
+}
+
+.userStatValue > p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.userStatName > p {
+  color: rgba(58, 58, 65, 1);
+  font-size: 14px;
+}
+
+*/
+
+/*
+-----
+#userList {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: silver;
+}
+
+.userCardWrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.userImageContainer {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+}
+
+.userImage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+*/
+
+.button {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid red;
+}
