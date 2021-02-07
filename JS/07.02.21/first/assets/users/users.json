@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name_1",
+        "age": 2,
+        "isMAle": "true"
+    },
+    {
+        "name": "name_2",
+        "age": 20,
+        "isMAle": "true"
+    },
+    {
+        "name": "name_3",
+        "age": 30,
+        "isMAle": "true"
+    },
+    {
+        "name": "name_4",
+        "age": 42,
+        "isMAle": "true"
+    }
+]
