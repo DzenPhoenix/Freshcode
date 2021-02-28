@@ -1,0 +1,84 @@
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+}
+
+body {
+  padding: 30px;
+  background-color: grey;
+}
+
+body {
+  padding: 30px;
+  background-color: beige;
+}
+
+a,
+a:visited,
+a:active,
+a:link,
+a:hover {
+  text-decoration: none;
+}
+
+.containerNav {
+  margin-bottom: 50px;
+}
+
+.menu {
+  font-size: 0;
+}
+
+.navItem {
+  display: inline-block;
+  width: 200px;
+  background-color: rgba(85, 15, 250, 0.445);
+  color: white;
+  border: 1px solid gray;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.navItem:hover {
+  background-color: rgb(102, 102, 248);
+}
+
+.navItemCont {
+  display: inline-block;
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  /*top: 0;*/
+  /*left: 100%;*/
+}
+
+.navItemCont:hover > .submenu {
+  display: block;
+}
+
+.navItemCont2 {
+  display: list-item;
+}
